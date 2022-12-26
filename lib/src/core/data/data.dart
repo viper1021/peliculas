@@ -62,8 +62,8 @@ final seats = [
 ];
 
 const seatTypes = [
-  SeatType(name: 'Disponible', color: Colors.grey),
-  SeatType(name: 'Reservado', color: Colors.black),
+  SeatType(name: 'Disponible', color: Colors.yellow),
+  SeatType(name: 'Reservado', color: Colors.red),
   SeatType(name: 'Seleccion', color: AppColors.primaryColor),
 ];
 
@@ -80,8 +80,8 @@ final movies = [
     image: 'assets/images/greta.jpg',
     screenPreview: 'assets/images/greta.jpg',
     description:
-        'Casi 5,000 años después de obtener los poderes supremos de los antiguos dioses y de ser encarcelado igual de '
-        'rápido, Black Adam se libera de su tumba terrenal, listo para desatar su peculiar forma de justicia en el mundo moderno',
+        'Casi 5,000 años después de obtener los poderes supremos de los antiguos dioses  '
+        'igual de listo para desatar su peculiar forma de justicia en el mundo moderno',
     type: 'Fantasia, Aventura',
     hours: 2,
     director: 'Jaume Collet-Serra',
@@ -91,7 +91,6 @@ final movies = [
       'Aldis Hodge',
       'Sarah Shahi',
       'Pierce Brosnan',
-      'Noah Centineo',
     ],
     dates: dates,
     seats: seats,
@@ -169,26 +168,6 @@ final movies = [
     seats: seats,
   ),
   Movie(
-    name: 'Avatar: El sentido del agua ',
-    image: 'assets/images/avatar',
-    screenPreview: 'assets/images/avatar.jpg',
-    description: 'Por fin salio la secuela de el avatar  '
-        'trae nuevos personajes y mas accion que nunca.',
-    type: 'Aventura',
-    hours: 2,
-    director: 'Marbel',
-    stars: 5,
-    actors: [
-      'Will Smith',
-      'Joey Ansah',
-      'Naomi Scott',
-      'Marwan Kenzari',
-      'Nasim Pedrad',
-    ],
-    dates: dates,
-    seats: seats,
-  ),
-  Movie(
     name: 'Camino hacia la Libertad ',
     image: 'assets/images/libertad.jpg',
     screenPreview: 'assets/libertad.jpg',
@@ -204,7 +183,26 @@ final movies = [
       'Joey Ansah',
       'Naomi Scott',
       'Marwan Kenzari',
-      'Nasim Pedrad',
+    ],
+    dates: dates,
+    seats: seats,
+  ),
+  Movie(
+    name: 'Avatar 2 2022 ',
+    image: 'assets/images/avata.jpg',
+    screenPreview: 'assets/avata.jpg',
+    description: 'Despues de tanta espera ya se estreno el avatar 2 '
+        'con mucha mas accion que nunca no te lo puedes perder.',
+    type: 'Fantasia',
+    hours: 2,
+    director: 'James Cameron',
+    stars: 5,
+    actors: [
+      'Jake Sully',
+      'Kate Winslet',
+      'Filip Geljo',
+      'Duane Evans Jr.',
+      'Jack Champion',
     ],
     dates: dates,
     seats: seats,

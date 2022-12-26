@@ -23,6 +23,7 @@ class _MoviesPageState extends State<MoviesPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: const Text("LIFEPELIS"),
         bottom: TabBar(
           controller: _tabController,
           isScrollable: true,
