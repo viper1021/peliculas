@@ -101,7 +101,7 @@ class MoviePage extends StatelessWidget {
                     begin: Offset(-30, 60),
                     child: IgnorePointer(
                       child: Text(
-                        'COMPRAR TIKET',
+                        'RESERVAR TIKET',
                         style: AppTextStyles.bookButtonTextStyle,
                       ),
                     ),

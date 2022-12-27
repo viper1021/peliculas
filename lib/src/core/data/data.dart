@@ -168,7 +168,7 @@ final movies = [
     seats: seats,
   ),
   Movie(
-    name: 'Camino hacia la Libertad ',
+    name: 'Libertad ',
     image: 'assets/images/libertad.jpg',
     screenPreview: 'assets/libertad.jpg',
     description:
